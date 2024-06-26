@@ -30,5 +30,5 @@ CMD [ "node", "dist/main.js" ]
 # GBjjCF26BrjGlT9v
 # mongodb+srv://songshik:<password>@pos-tech-estoque.qsbmq42.mongodb.net/?retryWrites=true&w=majority&appName=pos-tech-estoque
 # mongodb+srv://songshik:GBjjCF26BrjGlT9v@pos-tech-estoque.qsbmq42.mongodb.net/?retryWrites=true&w=majority&appName=pos-tech-estoque
-# docker build -t prdutos_estoque:latest  --build-arg="MONGO_URI=mongodb+srv://songshik:GBjjCF26BrjGlT9v@pos-tech-estoque.qsbmq42.mongodb.net/?retryWrites=true&w=majority&appName=pos-tech-estoque" --build-arg="JWT_SECRET=batman" .
-# docker build -t prdutos_estoque:latest  --build-arg="MONGO_URI=mongodb+srv://songshik:GBjjCF26BrjGlT9v@pos-tech-estoque.qsbmq42.mongodb.net/pos-tech-estoque" --build-arg="JWT_SECRET=batman" .
+# docker build -t produtos_estoque:latest  --build-arg="MONGO_URI=mongodb+srv://songshik:GBjjCF26BrjGlT9v@pos-tech-estoque.qsbmq42.mongodb.net/?retryWrites=true&w=majority&appName=pos-tech-estoque" --build-arg="JWT_SECRET=batman" .
+# docker build -t produtos_estoque:latest  --build-arg="MONGO_URI=mongodb+srv://songshik:GBjjCF26BrjGlT9v@pos-tech-estoque.qsbmq42.mongodb.net/pos-tech-estoque" --build-arg="JWT_SECRET=batman" .
